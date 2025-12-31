@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ec9a9a;
+   
+  }
+  .page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+  .card h1{
+    align-self: center;
+  }
+  
+  .ingp {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+  }
+  .ingp button {
+    padding: 8px 18px;
+    align-self: center;
+    border: 1px solid #333;
+    background-color: #8cd6db;
+    cursor: pointer;
+  
+    /* animation setup */
+    transition: 
+      background-color 0.3s ease,
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  #tlist {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: center;
+    padding-left: 0;
+  }
+
+  .ingp button:hover {
+    background-color: #8cba7e;
+    color: #ced06a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
