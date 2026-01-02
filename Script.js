@@ -15,8 +15,22 @@ btn.addEventListener("click" , () =>{
 
   const li = document.createElement("li");
   li.innerText= taskn;
+
+  const db1 = document.createElement("button");
+  db1.innerText = "DELETE";
+    
+  db1.addEventListener("click", () => {
+
+    li.remove();
+
+  });
+
   list.appendChild(li);
+  li.appendChild(db1);
 
   input.value="";
-
+  
 });
+ 
+
+ 
