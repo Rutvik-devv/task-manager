@@ -18,3 +18,7 @@ A simple task manager built using:
 - Flexbox layout
 - DOM manipulation
 - Event handling
+
+This project helped me practice DOM manipulation and Flexbox.
+
+
